@@ -1,3 +1,5 @@
+## Project Overview - Agent Lingling
+
 ### Problem Statement 
 
 China concept stocks listed on the NYSE and Nasdaq (BABA, PDD, JD, etc.) are exposed to far more than company fundamentals. Their prices swing with:
@@ -43,6 +45,8 @@ Google ADK provides a nice way to define these LLM Agents, register tools, and r
 ### What you created 
 
 At a high level, my system is a Google ADK multi-agent app called china_concept_stock_agent. Given a ticker (e.g. BABA) and a horizon (e.g. 6–12 months), it produces a structured report for retail investors.
+
+![Workflow](./flow_adk.png "Optional Title")
 
 Core components:
 
